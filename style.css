@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #313338;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Header and Navigation */
+header {
+    background: #0a74da;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #2B2D31;
+    color: white;
+}
+
+main h1 {
+    color: #0a74da;
+    margin-bottom: 10px;
+}
+
+main p, main ul {
+    margin-bottom: 15px;
+}
+
+main ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #0a74da;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.invite-button {
+    padding: 10px 20px;
+    background-color: blue; /* Blue background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.invite-button:hover {
+    background-color: darkblue; /* Slightly darker blue on hover */
+}
